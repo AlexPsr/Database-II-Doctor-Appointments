@@ -1,9 +1,9 @@
 <?php
 // Ρυθμίσεις σύνδεσης με τη βάση δεδομένων
-$host = 'localhost';        // Διεύθυνση του διακομιστή MySQL
-$dbname = 'database2';      // Όνομα της βάσης δεδομένων
-$user = 'root';             // Όνομα χρήστη για πρόσβαση στη MySQL
-$password = '';             // Κωδικός πρόσβασης (κενός για τον root από προεπιλογή στο XAMPP)
+$host = 'localhost';
+$dbname = 'database2';
+$user = 'root';
+$password = '';
 
 try {
     // Δημιουργία σύνδεσης με τη MySQL χρησιμοποιώντας PDO
